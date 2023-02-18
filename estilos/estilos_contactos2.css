@@ -1,12 +1,13 @@
 .imagen{
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: block;
     flex: block;
     margin: 0.2em;
     margin-bottom: 0em;
     padding-bottom: 0em; 
     padding-top: 0em;
+    line-height: 0px;
 }
 
 .barra {

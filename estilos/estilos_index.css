@@ -1,0 +1,131 @@
+.imagen{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    flex: block;
+    margin: 0.1em;
+    margin-bottom: 0em;
+    padding-bottom: 0em; 
+    padding-top: 0em;
+}
+
+.barra {
+    display: flex;
+    list-style: none;
+    margin: 8;
+    background: rgb(4, 38, 73);
+    padding: 0;
+
+}
+.barra li {
+    flex: 3 1 0;
+}
+.barra li:first-child {
+    flex: 3 2 0;
+}
+
+.barra a {
+    font: 10px georgia;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    color: white;
+    user-select: none;
+}
+.barra li:hover {
+    background: royalblue;
+}
+
+.titulo1{
+    text-align: center;
+    text-decoration: double;
+    text-transform:uppercase;
+    font: 20px bold ;
+    font-family: fantasy;
+    margin-top: 0em;
+    display: block;
+    line-height: 10px;
+}
+
+.imagen2{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    flex: block;
+    margin: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em; 
+    padding-top: 0em;
+}
+
+.main{
+    grid-area: main;
+}
+
+body * {
+    padding: 4px;
+}
+.header {
+    background: white;
+    grid-area: header;
+}
+.footer {
+    background: rgb(246, 206, 248);
+    grid-area: footer;
+}
+
+.section_izquierda{
+    grid-area: a;
+    float: left;
+    width: 900px;
+    margin-left: 7px;
+    padding: 8px;
+    justify-content: right;
+    text-align: justify;
+    font-size: medium;
+    font: 'verdana';
+    background-color: lightblue;
+    border: solid 3.5px darkblue;
+}
+
+.section_derecha{
+    grid-area: b;
+    float: right;
+    width: 520px;
+    margin-right: 0px;
+    padding: 8px;
+    justify-content: right;
+    text-align: justify;
+    background-color: rgb(244, 196, 244);
+    border: solid 3.5px rgb(105, 3, 105);
+ 
+}
+
+.abajo{
+    grid-area: c;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas:
+      "header   header header"
+      "main main   main"
+      "a a b"
+      "c c c"
+      "footer   footer footer";
+    gap: 7px;
+    padding: 12px;
+    text-align: center;
+    font: 12px sans-serif;
+}
+
+#titulo{
+    text-align: center;
+    color: darkblue;
+
+}
