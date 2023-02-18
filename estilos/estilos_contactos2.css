@@ -1,0 +1,147 @@
+.imagen{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: block;
+    margin: 0.2em;
+    margin-bottom: 0em;
+    padding-bottom: 0em; 
+    padding-top: 0em;
+}
+
+.barra {
+    display: flex;
+    list-style: none;
+    margin: 12;
+    background: rgb(4, 38, 73);
+    padding: 0;
+
+}
+.barra li {
+    flex: 3 1 0;
+}
+.barra li:first-child {
+    flex: 3 2 0;
+}
+
+.barra a {
+    font: 10px georgia;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: 0;
+    color: white;
+    user-select: none;
+}
+.barra li:hover {
+    background: royalblue;
+}
+
+
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-areas:
+      "header   header header"
+      "sections index   index"
+      "b main c"
+      "footer   footer footer";
+    gap: 7px;
+    padding: 12px;
+    text-align: center;
+    font: 12px sans-serif;
+}
+
+
+body * {
+    padding: 4px;
+}
+.header {
+    background: white;
+    grid-area: header;
+}
+.footer {
+    background: rgb(246, 206, 248);
+    grid-area: footer;
+}
+.section_left {
+    text-align: left;
+    background: lightskyblue;
+    grid-area: sections;
+    margin: 2px;
+    font-size:x-large;
+    grid-area: sections;
+    font: georgia;
+    text-align: center;
+    font: italic;
+}
+.no_sale {
+    background: gold;
+    grid-area: b;
+    display: none;
+}
+
+.no_sale2 {
+    background: gold;
+    grid-area: c;
+    display: none;
+}
+
+.main {
+    background: paleturquoise;
+    grid-area: main;
+    
+}
+
+.index{
+    background-color: rgb(249, 167, 126);
+    grid-area: index;
+    margin: 2px;
+    padding: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#caja{
+    border: 3px solid;
+}
+
+#boton1{
+    margin: 10px;
+    padding: 15px;
+    border: 5px solid darkslategray;
+    background-color: rgb(162, 216, 162);
+}
+
+#boton2{
+    margin: 10px;
+    padding: 15px;
+    border: 5px solid darkred;
+    background-color: #d8a6a2;
+}
+
+form{
+    font: bold;
+    overflow: scroll;
+    height: 700px;
+    
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+}
+
+h3{
+    font: bold;
+}
+
+p{
+    font: bold;
+}
