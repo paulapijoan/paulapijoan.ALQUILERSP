@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos2</title>
+    <link rel="stylesheet" href="./estilos/estilos_contactos2.css">
+</head>
+<body>
+    
+    <div class="header">
+        <header class="cabecera" id="cabecera">
+            <div class="imagen">
+                <a href="index.html"><img src="./fotos/logo.png" alt="logo" height="120px" width="320px"></a>
+            </div>
+            <nav>
+                <ul class="barra">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Nuestros Servicios</a></li>
+                    <li><a href="productos.html">Casas Disponibles</a></li>
+                    <li><a href="contactos2.html">Contacto</a></li>
+                </ul>    
+            </nav>        
+
+        </header>
+    </div>
+
+    <div class="section_left">
+        <h1>¿Quieres vivir esta inolvidable puesta de sol?</h1>
+        <p></p>
+        <h3>NO ESPERES</h3>
+        <h3>CONTÁCTANOS HOY</h3>
+        <p></p>
+        <h4><a href="#section1">Rellene el siguiente formulario aqui</a>
+        </h4>
+    </div>
+
+    <div class="index">
+        <iframe width="950" height="525" src="https://www.youtube.com/embed/aPdvhD9lKj0?autoplay=1" frameborder="0" allowfullscreen ></iframe>
+    </div>
+
+    <div class="main">
+        <form action="formulario_env.html" method="get" id="section1">
+            <fieldset><!-- Para organizar en grupos el formulario -->
+                <legend>
+                    <h3>Información personal</h3>
+                </legend>
+                <label for="nombre_id">Nombre:</label>
+                <input type="text" id="caja" required>
+                <label for="apellidos_id">Apellidos:</label>
+                <input type="text" id="caja">
+                <p>
+
+                </p>
+                <label for="number_id">Número de telefono</label>
+                <input type="tel" id="caja"  pattern="[0-9]+" inputmode="numeric" required>
+                <p></p>
+                <label for="email_id">Email personal</label>
+                <input type="email" id="caja" required>
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Casas interesado/a</h3></legend>
+                <legend><h4>Por favor indique las casas sobre las que le gustaría más información</h4></legend>
+                
+                <label for="casas_id">Mis preferencias</label>
+                <ul>
+                    <li>
+                     <input type="checkbox" id="caja" value="Casa1">
+                     <label for="casa_1">Chalet Residencial El Trébol</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="caja" value="Casa2">
+                        <label for="casa_2">Chalet Residencial Balcón el Novo</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="caja" value="Casa3">
+                        <label for="casa_3">Chalet Urbanización El Bosque</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="caja" value="Casa4">
+                        <label for="casa_4">Chalet Urbanización Hoyo 3</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="caja" value="Casa4">
+                        <label for="casa_4">Chalet Residencial Las Mariposas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="caja" value="Casa4">
+                        <label for="casa_4">Chalet Urbanización La Loma</label>
+                    </li>
+                   </ul>
+                <label for="tiempo">Fecha inicio:</label>
+                <input type="date" min="2023-02-02" id="caja" required>
+                <label for="tiempo_fin">Fecha final:</label>
+                <input type="date" min="2023-02-02" id="caja" required>
+                <p></p>
+                <label for="información_importante">Información adicional que añadir sobre alguna casa:</label><br></br>
+                <textarea name="comentario" rows="4" cols="50" id="caja"></textarea>
+            </fieldset>
+            
+            <fieldset>
+                <input type="submit" value="Enviar" id="boton1"/>
+                <input type="reset" value="Resetear" id="boton2" />
+                 
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="no_sale">
+        <p>
+            no salir
+        </p>
+    </div>
+
+    <div class="no_sale2">
+        <p>
+            no salir2
+        </p>
+    </div>
+
+
+    <div class="footer">
+        <button><a href="index.html">Volver al inicio</a></button>
+        <button><a href="#cabecera">Subir arriba de la página</a></button>
+    </div>
+
+
+</body>
+</html>
