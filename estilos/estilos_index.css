@@ -90,6 +90,7 @@ body * {
     font: 'verdana';
     background-color: lightblue;
     border: solid 3.5px darkblue;
+    overflow-wrap: normal;
 }
 
 .section_derecha{
