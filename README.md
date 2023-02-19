@@ -4,6 +4,8 @@
 ## Página web acerca de los alquileres vacacionales, especificamente en Sancti Petri, Cadiz
 
 
+### Para acceder  https://paulapijoan.github.io/paulapijoan.ALQUILERSP/
+
 #### Inicio
 En primer lugar, nos encontramos con la página principal que esta diseñada con maquetación GRID la cual permite colocar los elementos en ambas direcciones y obtener distintas columnas. 
 
